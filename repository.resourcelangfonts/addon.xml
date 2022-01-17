@@ -4,9 +4,9 @@
 		<import addon="xbmc.addon" version="13.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="Resource Langs Fonts">
-			<info compressed="false">C:\Users\scottZ397\Documents\GitHub\repo-resources-langs\addons.xml</info>
-			<checksum>C:\Users\scottZ397\Documents\GitHub\repo-resources-langs\addons.xml.md5</checksum>
-			<datadir zip="true">C:\Users\scottZ397\Documents\GitHub\repo-resources-langs\</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/scott967/repo-resources-langs/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/scott967/repo-resources-langs/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/scott967/repo-resources-langs/master</datadir>
 			<hashes>false</hashes>
 	</extension>
 	<extension point="xbmc.addon.metadata">
