@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.font.active"
+  version="1.1.0"
+  name="Active Fonts"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.font"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Common fonts</summary>
+    <description lang="en_GB">More frequently used fonts, which Kodi cannot yet add to a language addon.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>

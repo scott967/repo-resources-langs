@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.font.excluded"
+  version="1.1.0"
+  name="Excluded Fonts"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.font"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Mostly unused fonts in the world</summary>
+    <description lang="en_GB">This addon contains some font files, which bring formats that are largely unused, ancient and not widely used languages for example.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>

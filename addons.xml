@@ -1,0 +1,2286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.resourcelangfonts" name="Resource Langs Fonts"  version="20.0.0" provider-name="scott967">
+	<requires>
+		<import addon="xbmc.addon" version="13.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Resource Langs Fonts">
+			<info compressed="false">C:\Users\scottZ397\Documents\GitHub\repo-resources-langs\addons.xml</info>
+			<checksum>C:\Users\scottZ397\Documents\GitHub\repo-resources-langs\addons.xml.md5</checksum>
+			<datadir zip="true">C:\Users\scottZ397\Documents\GitHub\repo-resources-langs\</datadir>
+			<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Languages with fonts</summary>
+		<description lang="en">Install Languages with fonts</description>
+		<disclaimer/>
+		<platform>all</platform>
+	</extension>
+	<assets>
+		<news></news>
+		<icon></icon>
+	</assets>
+</addon>
+
+<addon
+  id="resource.font.active"
+  version="1.1.0"
+  name="Active Fonts"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.font"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Common fonts</summary>
+    <description lang="en_GB">More frequently used fonts, which Kodi cannot yet add to a language addon.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.font.excluded"
+  version="1.1.0"
+  name="Excluded Fonts"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.font"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Mostly unused fonts in the world</summary>
+    <description lang="en_GB">This addon contains some font files, which bring formats that are largely unused, ancient and not widely used languages for example.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.font.limited"
+  version="1.1.0"
+  name="Limited Fonts"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.font"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Less common fonts</summary>
+    <description lang="en_GB">These written languages are still used in the world, but are used relatively little.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.af_za"
+  version="9.1.27"
+  name="Afrikaans"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="af_ZA">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <dvd>
+      <menu>en</menu>
+      <audio>en</audio>
+      <subtitle>en</subtitle>
+    </dvd>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Afrikaans language pack</summary>
+    <description lang="en_GB">Afrikaans version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.am_et"
+  version="9.1.23"
+  name="Amharic"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="am_ET">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Amharic language pack</summary>
+    <description lang="en_GB">Amharic version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ar_sa"
+  version="9.1.26"
+  name="Arabic"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ar_SA">
+    <charsets>
+      <gui unicodefont="true">CP1256</gui>
+      <subtitle>CP1256</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Arabic language pack</summary>
+    <description lang="en_GB">Arabic version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ast_es"
+  version="1.1.15"
+  name="Asturian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ast_ES">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>El</token>
+      <token>Los</token>
+      <token>La</token>
+      <token>Las</token>
+      <token>Un</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Asturian language pack</summary>
+    <description lang="en_GB">Asturian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.az_az"
+  version="9.1.18"
+  name="Azerbaijani"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="az_AZ">
+    <charsets>
+      <gui unicodefont="true">CP1254</gui>
+      <subtitle>CP1254</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Azerbaijani language pack</summary>
+    <description lang="en_GB">Azerbaijani version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.be_by"
+  version="9.1.32"
+  name="Belarusian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="be_BY">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+     <sorttokens>
+      <token>The</token>
+      <token>A</token>
+      <token>An</token>
+      <token>Der</token>
+      <token>Die</token>
+      <token>Das</token>
+      <token>Le</token>
+      <token>La</token>
+      <token>Les</token>
+      <token>Un</token>
+      <token>Une</token>
+      <token>Des</token>
+      <token>Il</token>
+      <token>Lo</token>
+      <token>La</token>
+      <token>Gli</token>
+      <token>Uno</token>
+      <token>Una</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Belarusian language pack</summary>
+    <description lang="en_GB">Belarusian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.bg_bg"
+  version="9.1.45"
+  name="Bulgarian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="bg_BG">
+    <charsets>
+      <gui>CP1251</gui>
+      <subtitle>CP1251</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Bulgarian language pack</summary>
+    <description lang="en_GB">Bulgarian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.bs_ba"
+  version="9.1.20"
+  name="Bosnian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="bs_BA">
+    <charsets>
+      <gui>CP1251</gui>
+      <subtitle>CP1251</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Bosnian language pack</summary>
+    <description lang="en_GB">Bosnian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ca_es"
+  version="9.1.27"
+  name="Catalan"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ca_ES">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token separators="'">L</token>
+      <token>El</token>
+      <token>La</token>
+      <token>Els</token>
+      <token>Les</token>
+      <token>Un</token>
+      <token>Una</token>
+      <token>Uns</token>
+      <token>Unes</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Catalan language pack</summary>
+    <description lang="en_GB">Catalan version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.cs_cz"
+  version="9.1.46"
+  name="Czech"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="cs_CZ">
+    <charsets>
+      <gui>CP1250</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Czech language pack</summary>
+    <description lang="en_GB">Czech version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.cy_gb"
+  version="9.1.26"
+  name="Welsh"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="cy_GB">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Welsh language pack</summary>
+    <description lang="en_GB">Welsh version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.da_dk"
+  version="9.1.49"
+  name="Danish"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="da_DK">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+        <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Danish language pack</summary>
+    <description lang="en_GB">Danish version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.de_de"
+  version="9.1.49"
+  name="German"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="de_DE">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>Der</token>
+      <token>Die</token>
+      <token>Das</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">German language pack</summary>
+    <description lang="en_GB">German version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.el_gr"
+  version="9.1.34"
+  name="Greek"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="el_GR">
+    <charsets>
+      <gui unicodefont="true">CP1253</gui>
+      <subtitle>CP1253</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Greek language pack</summary>
+    <description lang="en_GB">Greek version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.en_au"
+  version="9.1.22"
+  name="English (Australia)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="en_AU">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">English (Australia) language pack</summary>
+    <description lang="en_GB">English (Australia) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.en_nz"
+  version="9.1.25"
+  name="English (New Zealand)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="en_NZ">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">English (New Zealand) language pack</summary>
+    <description lang="en_GB">English (New Zealand) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.en_us"
+  version="9.1.34"
+  name="English (US)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="en_US">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">English (US) language pack</summary>
+    <description lang="en_GB">English (US) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.eo"
+  version="9.1.20"
+  name="Esperanto"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="eo">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Esperanto language pack</summary>
+    <description lang="en_GB">Esperanto version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.es_ar"
+  version="9.1.24"
+  name="Spanish (Argentina)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="es_AR">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>El</token>
+      <token>Los</token>
+      <token>La</token>
+      <token>Las</token>
+      <token>Un</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Spanish (Argentina) language pack</summary>
+    <description lang="en_GB">Spanish (Argentina) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.es_es"
+  version="9.1.45"
+  name="Spanish"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="es_ES">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>El</token>
+      <token>Los</token>
+      <token>La</token>
+      <token>Las</token>
+      <token>Un</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Spanish language pack</summary>
+    <description lang="en_GB">Spanish version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.es_mx"
+  version="9.1.32"
+  name="Spanish (Mexico)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="es_MX">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <dvd>
+      <audio>en</audio>
+    </dvd>
+    <sorttokens>
+      <token>The</token>
+      <token>Los</token>
+      <token>Las</token>
+      <token>El</token>
+      <token>La</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Spanish (Mexico) language pack</summary>
+    <description lang="en_GB">Spanish (Mexico) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.et_ee"
+  version="9.1.36"
+  name="Estonian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="et_EE">
+    <charsets>
+      <gui unicodefont="true">CP1257</gui>
+      <subtitle>CP1257</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Estonian language pack</summary>
+    <description lang="en_GB">Estonian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.eu_es"
+  version="9.1.31"
+  name="Basque"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="eu_ES">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Basque language pack</summary>
+    <description lang="en_GB">Basque version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.fa_af"
+  version="9.1.20"
+  name="Persian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="fa_AF">
+    <charsets>
+      <gui unicodefont="true">CP1256</gui>
+      <subtitle>CP1256</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Persian language pack</summary>
+    <description lang="en_GB">Persian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.fa_ir"
+  version="9.1.26"
+  name="Persian (Iran)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="fa_IR">
+    <charsets>
+      <gui unicodefont="true">CP1256</gui>
+      <subtitle>CP1256</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Persian (Iran) language pack</summary>
+    <description lang="en_GB">Persian (Iran) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.fi_fi"
+  version="9.1.50"
+  name="Finnish"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="fi_FI">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Finnish language pack</summary>
+    <description lang="en_GB">Finnish version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.fo_fo"
+  version="9.1.21"
+  name="Faroese"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="fo_FO">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Faroese language pack</summary>
+    <description lang="en_GB">Faroese version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.fr_ca"
+  version="9.1.41"
+  name="French (Canada)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="fr_CA">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>Le</token>
+      <token>La</token>
+      <token>Les</token>
+      <token separators="'">L</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">French (Canada) language pack</summary>
+    <description lang="en_GB">French (Canada) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.fr_fr"
+  version="9.1.52"
+  name="French"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="fr_FR">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>Le</token>
+      <token>La</token>
+      <token>Les</token>
+      <token separators="'">L</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">French language pack</summary>
+    <description lang="en_GB">French version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.gl_es"
+  version="9.1.31"
+  name="Galician"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="gl_ES">
+    <charsets>
+      <gui unicodefont="true">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Galician language pack</summary>
+    <description lang="en_GB">Galician version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.he_il"
+  version="9.1.31"
+  name="Hebrew"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="he_IL">
+    <charsets>
+      <gui unicodefont="true">CP1255</gui>
+      <subtitle>CP1255</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Hebrew language pack</summary>
+    <description lang="en_GB">Hebrew version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.hi_in"
+  version="9.1.18"
+  name="Hindi (Devanagiri)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="hi_IN">
+    <charsets>
+      <gui unicodefont="true">CP65001</gui>
+      <subtitle>CP65001</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Hindi language pack</summary>
+    <description lang="en_GB">Hindi version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.hr_hr"
+  version="9.1.33"
+  name="Croatian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="hr_HR">
+    <charsets>
+      <gui unicodefont="false">CP1250</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Croatian language pack</summary>
+    <description lang="en_GB">Croatian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.hu_hu"
+  version="9.1.42"
+  name="Hungarian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="hu_HU">
+    <charsets>
+      <gui unicodefont="true">CP1250</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>A</token>
+      <token>Az</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Hungarian language pack</summary>
+    <description lang="en_GB">Hungarian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.hy_am"
+  version="9.1.19"
+  name="Armenian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="hy_AM">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Armenian language pack</summary>
+    <description lang="en_GB">Armenian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.id_id"
+  version="9.1.28"
+  name="Indonesian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="id_ID">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <dvd>
+      <menu>in</menu>
+      <audio>in</audio>
+      <subtitle>in</subtitle>
+    </dvd>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Indonesian language pack</summary>
+    <description lang="en_GB">Indonesian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.is_is"
+  version="9.1.34"
+  name="Icelandic"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="is_IS">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Icelandic language pack</summary>
+    <description lang="en_GB">Icelandic version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.it_it"
+  version="9.1.42"
+  name="Italian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="it_IT">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>Il</token>
+      <token>Lo</token>
+      <token>La</token>
+      <token>I</token>
+      <token>Gli</token>
+      <token>Le</token>
+      <token separators="'">L</token>
+      <token>Un</token>
+      <token>Uno</token>
+      <token>Una</token>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Italian language pack</summary>
+    <description lang="en_GB">Italian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ja_jp"
+  version="9.1.33"
+  name="Japanese"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ja_JP">
+    <charsets>
+      <gui unicodefont="true">CP932</gui>
+      <subtitle>CP932</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Japanese language pack</summary>
+    <description lang="en_GB">Japanese version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.kn_in"
+  version="1.1.14"
+  name="Kannada"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="kn_IN">
+    <charsets>
+      <gui unicodefont="true">CP65001</gui>
+      <subtitle>CP65001</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Kannada language pack</summary>
+    <description lang="en_GB">Kannada version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ko_kr"
+  version="9.1.39"
+  name="Korean"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ko_KR">
+    <charsets>
+      <gui unicodefont="true">CP949</gui>
+      <subtitle>CP949</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Korean language pack</summary>
+    <description lang="en_GB">Korean version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.lt_lt"
+  version="9.1.43"
+  name="Lithuanian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="lt_LT">
+    <charsets>
+      <gui unicodefont="true">ISO-8859-13</gui>
+      <subtitle>CP1257</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Lithuanian language pack</summary>
+    <description lang="en_GB">Lithuanian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.lv_lv"
+  version="9.1.30"
+  name="Latvian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="lv_LV">
+    <charsets>
+      <gui unicodefont="true">CP1257</gui>
+      <subtitle>CP1257</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Latvian language pack</summary>
+    <description lang="en_GB">Latvian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.mi"
+  version="9.1.21"
+  name="Maori"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="mi">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <dvd>
+      <menu>en</menu>
+      <audio>en</audio>
+      <subtitle>en</subtitle>
+    </dvd>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Maori language pack</summary>
+    <description lang="en_GB">Maori version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.mk_mk"
+  version="9.1.24"
+  name="Macedonian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="mk_MK">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Macedonian language pack</summary>
+    <description lang="en_GB">Macedonian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ml_in"
+  version="9.1.14"
+  name="Malayalam"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ml_IN">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Malayalam language pack</summary>
+    <description lang="en_GB">Malayalam version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.mn_mn"
+  version="9.1.19"
+  name="Mongolian (Mongolia)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="mn_MN">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Mongolian language pack</summary>
+    <description lang="en_GB">Mongolian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ms_my"
+  version="9.1.30"
+  name="Malay"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ms_MY">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Malay language pack</summary>
+    <description lang="en_GB">Malay version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.mt_mt"
+  version="9.1.23"
+  name="Maltese"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="mt_MT">
+    <charsets>
+      <gui unicodefont="true">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Maltese language pack</summary>
+    <description lang="en_GB">Maltese version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.my_mm"
+  version="9.1.21"
+  name="Burmese"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="my_MM">
+    <charsets>
+      <gui unicodefont="true">CP874</gui>
+      <subtitle>CP874</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Burmese language pack</summary>
+    <description lang="en_GB">Burmese version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.nb_no"
+  version="9.1.30"
+  name="Norwegian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="nb_NO">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Norwegian language pack</summary>
+    <description lang="en_GB">Norwegian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.nl_nl"
+  version="9.1.42"
+  name="Dutch"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="nl_NL">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>De</token>
+      <token>Het</token>
+      <token>Een</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Dutch language pack</summary>
+    <description lang="en_GB">Dutch version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.os_os"
+  version="1.1.15"
+  name="Ossetic"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="os_OS">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Ossetic language pack</summary>
+    <description lang="en_GB">Ossetic version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.pl_pl"
+  version="9.1.36"
+  name="Polish"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="pl_PL">
+    <charsets>
+      <gui unicodefont="true">ISO-8859-2</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Polish language pack</summary>
+    <description lang="en_GB">Polish version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.pt_br"
+  version="9.1.49"
+  name="Portuguese (Brazil)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="pt_BR">
+    <charsets>
+      <gui unicodefont="true">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Portuguese (Brazil) language pack</summary>
+    <description lang="en_GB">Portuguese (Brazil) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.pt_pt"
+  version="9.1.30"
+  name="Portuguese"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="pt_PT">
+    <charsets>
+      <gui unicodefont="true">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>O</token>
+      <token>A</token>
+      <token>Os</token>
+      <token>As</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Portuguese language pack</summary>
+    <description lang="en_GB">Portuguese version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ro_ro"
+  version="9.1.33"
+  name="Romanian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ro_RO">
+    <charsets>
+      <gui>UTF-8</gui>
+      <subtitle>ISO-8859-2</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Romanian language pack</summary>
+    <description lang="en_GB">Romanian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ru_ru"
+  version="9.1.42"
+  name="Russian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ru_RU">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>CP1251</subtitle>
+    </charsets>
+     <sorttokens>
+      <token>The</token>
+      <token>A</token>
+      <token>An</token>
+      <token>Der</token>
+      <token>Die</token>
+      <token>Das</token>
+      <token>Le</token>
+      <token>La</token>
+      <token>Les</token>
+      <token>Un</token>
+      <token>Une</token>
+      <token>Des</token>
+      <token>Il</token>
+      <token>Lo</token>
+      <token>La</token>
+      <token>Gli</token>
+      <token>Uno</token>
+      <token>Una</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Russian language pack</summary>
+    <description lang="en_GB">Russian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.si_lk"
+  version="9.1.20"
+  name="Sinhala"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="si_LK">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Sinhala language pack</summary>
+    <description lang="en_GB">Sinhala version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.sk_sk"
+  version="9.1.42"
+  name="Slovak"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="sk_SK">
+    <charsets>
+      <gui unicodefont="true">CP1250</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Slovak language pack</summary>
+    <description lang="en_GB">Slovak version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.sl_si"
+  version="9.1.27"
+  name="Slovenian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="sl_SI">
+    <charsets>
+      <gui>CP1250</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>Der</token>
+      <token>Die</token>
+      <token>Das</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Slovenian language pack</summary>
+    <description lang="en_GB">Slovenian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.sq_al"
+  version="9.1.22"
+  name="Albanian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="sq_AL">
+    <charsets>
+      <gui>CP1251</gui>
+      <subtitle>CP1251</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Albanian language pack</summary>
+    <description lang="en_GB">Albanian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.sr_rs"
+  version="9.1.31"
+  name="Serbian (Cyrillic)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="sr_RS">
+    <charsets>
+      <gui>CP1250</gui>
+      <subtitle>CP1250</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Serbian (Cyrillic) language pack</summary>
+    <description lang="en_GB">Serbian (Cyrillic) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.sr_rs@latin"
+  version="9.1.23"
+  name="Serbian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="sr_RS@latin">
+    <charsets>
+      <gui>CP1251</gui>
+      <subtitle>CP1251</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Serbian language pack</summary>
+    <description lang="en_GB">Serbian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.sv_se"
+  version="9.1.45"
+  name="Swedish"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="sv_SE">
+    <charsets>
+      <gui>CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Swedish language pack</summary>
+    <description lang="en_GB">Swedish version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.szl"
+  version="9.1.24"
+  name="Silesian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="szl">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Silesian language pack</summary>
+    <description lang="en_GB">Silesian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.ta_in"
+  version="9.1.24"
+  name="Tamil (India)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="ta_IN">
+    <charsets>
+      <gui unicodefont="true">CP65001</gui>
+      <subtitle>CP65001</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Tamil (India) language pack</summary>
+    <description lang="en_GB">Tamil (India) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.te_in"
+  version="9.1.15"
+  name="Telugu"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="te_IN">
+    <charsets>
+      <gui unicodefont="true">CP65001</gui>
+      <subtitle>CP65001</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Telugu language pack</summary>
+    <description lang="en_GB">Telugu version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.tg_tj"
+  version="9.1.21"
+  name="Tajik"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="tg_TJ">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>utf-8</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Tajik language pack</summary>
+    <description lang="en_GB">Tajik version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.th_th"
+  version="9.1.25"
+  name="Thai"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="th_TH">
+    <charsets>
+      <gui unicodefont="true">CP874</gui>
+      <subtitle>CP874</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Thai language pack</summary>
+    <description lang="en_GB">Thai version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.tr_tr"
+  version="9.1.39"
+  name="Turkish"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="tr_TR">
+    <charsets>
+      <gui unicodefont="true">CP1254</gui>
+      <subtitle>CP1254</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Turkish language pack</summary>
+    <description lang="en_GB">Turkish version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.uk_ua"
+  version="9.1.29"
+  name="Ukrainian"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="uk_UA">
+    <charsets>
+      <gui unicodefont="true">utf-8</gui>
+      <subtitle>CP1251</subtitle>
+    </charsets>
+     <sorttokens>
+      <token>The</token>
+      <token>A</token>
+      <token>An</token>
+      <token>Der</token>
+      <token>Die</token>
+      <token>Das</token>
+      <token>Le</token>
+      <token>La</token>
+      <token>Les</token>
+      <token>Un</token>
+      <token>Une</token>
+      <token>Des</token>
+      <token>Il</token>
+      <token>Lo</token>
+      <token>La</token>
+      <token>Gli</token>
+      <token>Uno</token>
+      <token>Una</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Ukrainian language pack</summary>
+    <description lang="en_GB">Ukrainian version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.uz_uz"
+  version="9.1.19"
+  name="Uzbek"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="uz_UZ">
+    <charsets>
+      <gui unicodefont="true">CP1254</gui>
+      <subtitle>CP1254</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Uzbek language pack</summary>
+    <description lang="en_GB">Uzbek version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.vi_vn"
+  version="9.1.30"
+  name="Vietnamese"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="vi_VN">
+    <charsets>
+      <gui unicodefont="true">CP1258</gui>
+      <subtitle>CP1258</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Vietnamese language pack</summary>
+    <description lang="en_GB">Vietnamese version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.zh_cn"
+  version="9.1.41"
+  name="Chinese (Simple)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="zh_CN">
+    <charsets>
+      <gui unicodefont="true">CP936</gui>
+      <subtitle>CP936</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Chinese (Simple) language pack</summary>
+    <description lang="en_GB">Chinese (Simple) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="resource.language.zh_tw"
+  version="9.1.46"
+  name="Chinese (Traditional)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="zh_TW">
+    <charsets>
+      <gui unicodefont="true">CP950</gui>
+      <subtitle>CP950</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Chinese (Traditional) language pack</summary>
+    <description lang="en_GB">Chinese (Traditional) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+</addons>
